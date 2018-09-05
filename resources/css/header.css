@@ -5,28 +5,25 @@
   height:4em;
   font-family:"Arial";
   font-style:italic;
+  box-shadow: 1px 1px 15px #000;
 }
 
 .main_header_logo{
-  display:block;
   float:left;
   margin:0;
   padding:0;
-  margin-left:55px;
-  padding-top:0.7em;
+  list-style:none;
+  padding-top: 0.6em
 }
 
 .main_header_logo a{
+  font-size:2em;
   color:#fff;
-  font-size: 0.6em;
-  text-transform:lowercase;
   text-decoration:none;
-  text-shadow: 5px 5px 5px #000000;
+  text-transform:lowercase;
+  text-shadow: 3px 3px 1px #000000;
   font-weight: 600;
-}
-
-.main_header_logo a:hover{
-  text-shadow: 8px 8px 8px #000000;
+  margin-left:55px;
 }
 
 .main_header_nav{
@@ -34,12 +31,12 @@
   margin:0;
   padding:0;
   list-style:none;
+  padding-top: 1em;
 }
 
 .main_header_nav li{
   display:inline-block;
   margin-right:55px;
-  padding-top:0.7em;
 }
 
 .main_header_nav li a{
@@ -53,7 +50,7 @@
 
 .main_header_nav li a:hover{
   color:#fff;
-  text-shadow: 5px 5px 4px #000000
+  text-shadow: 5px 5px 1px #000000
 }
 
 header::after{
